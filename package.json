@@ -15,7 +15,7 @@
   },
   "main": "bundle.js",
   "scripts": {
-    "test": "echo \"Error: not test specified\" && exit 1"
+    "build": "webpack"
   },
   "keywords": [
     "Webpack"

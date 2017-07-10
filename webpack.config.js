@@ -1,5 +1,5 @@
-var webpack = require("webpack");
-var path = require("path");
+const webpack = require("webpack");
+const path = require("path");
 
 module.exports = {
     entry: "./entry.js",
@@ -8,7 +8,7 @@ module.exports = {
         filename: 'bundle.js'
     },
     module: {
-        loaders: [{
+        rules: [{
             test: /\.css$/,
             use: [
                 { loader: 'style-loader' },
